@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#40c4ff</color>
+    <color name="colorPrimaryDark">#0094cc</color>
+    <color name="colorAccent">#DF2B2B</color>
+    <color name="colorRegis">#DB4437</color>
+    <color name="colorRegisDark">#B93221</color>
+    <color name="splash_bg">#E3F2DA</color>
+    <color name="btn_red">#DF2B2B</color>
+    <color name="forgotpass">#000000</color>
+    <color name="login">#ffffff</color>
+    <color name="or">#090909</color>
+    <color name="floatbt">#AE3E3E</color>
+    <color name="cardview">#F3EDED</color>
+    <color name="floatbtn">#FF5722</color>
+</resources>
