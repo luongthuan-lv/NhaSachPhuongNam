@@ -81,4 +81,10 @@
     <string name="luu">Lưu</string>
     <string name="laylaimatkhau">Lấy lại mật khẩu</string>
     <string name="nd">Vui lòng cung cấp email đăng nhập để lấy lại mật khẩu</string>
+    <string name="theongay">Theo ngày</string>
+    <string name="theothang">Theo tháng</string>
+    <string name="theotuan">Theo tuần</string>
+    <string name="tienthu">Tiền thu: 1.000.000 VNĐ</string>
+    <string name="ngay">Ngày: 20/9/2019</string>
+    <string name="thongtin">Cảm ơn bạn đã tin tưởng vào sử dụng app quản lý sách của chúng tôi</string>
 </resources>

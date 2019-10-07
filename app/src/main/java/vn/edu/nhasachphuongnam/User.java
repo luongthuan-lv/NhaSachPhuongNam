@@ -1,7 +1,7 @@
 package vn.edu.nhasachphuongnam;
 
 public class User {
-    String Phone,userName,hoTen,passWord;
+   public String Phone,userName,hoTen,passWord;
 
 
 

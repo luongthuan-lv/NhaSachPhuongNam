@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserScreen.Recover_PassActivity"
-            android:theme="@style/FullScreen"></activity>
+        <activity android:name=".ThongTinActivity"></activity>
+        <activity android:name=".ThongKeActivity" />
+        <activity
+            android:name=".UserScreen.Recover_PassActivity"
+            android:theme="@style/FullScreen" />
         <activity
             android:name=".UserScreen.Infor_UserActivity"
             android:parentActivityName=".UserScreen.UserActivity" />

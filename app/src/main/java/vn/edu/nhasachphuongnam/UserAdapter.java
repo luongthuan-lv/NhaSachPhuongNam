@@ -41,7 +41,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserHolder> {
     @Override
     public void onBindViewHolder(@NonNull final UserHolder holder, final int positon) {
 
-        final User user = userList.get(positon);
+          final User user = userList.get(positon);
         holder.ipeUsername.setText(user.userName);
 
 
@@ -81,6 +81,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserHolder> {
                 Intent intent = new Intent(context, Infor_UserActivity.class);
                 User user = userList.get(holder.getLayoutPosition());
                 Bundle bundle = new Bundle();
+                bundle.putInt("stt",positon);
                 bundle.putString("phone",user.Phone);
                 bundle.putString("email",user.userName);
                 bundle.putString("name",user.hoTen);

@@ -132,12 +132,11 @@ public class UserDao extends SQLiteOpenHelper {
     public long updateUser(User user){
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
-        contentValues.put(EMAIL, user.userName);
         contentValues.put(PASS, user.passWord);
         contentValues.put(PHONE, user.Phone);
         contentValues.put(NAME,user.hoTen);
 
-        return sqLiteDatabase.update(USER, contentValues, EMAIL +"=?",new String[]{user.userName});
+        return sqLiteDatabase.update(USER, contentValues, EMAIL +"=?",new String[]{(user.userName)});
 
     }
 

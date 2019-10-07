@@ -84,9 +84,10 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(new Intent(HomeActivity.this, InventoryActivity.class));
                 break;
             case R.id.doanhso:
+                startActivity(new Intent(HomeActivity.this,ThongKeActivity.class));
                 break;
             case R.id.infor:
-
+                startActivity(new Intent(HomeActivity.this,ThongTinActivity.class));
                 break;
             case R.id.logout:
                 ShowDialogLogout();
