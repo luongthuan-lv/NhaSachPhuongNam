@@ -9,12 +9,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class AddBookActivity extends AppCompatActivity {
+public class AddTopBookActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_book);
+        setContentView(R.layout.activity_add_top_book);
         Drawable drawable = getResources().getDrawable(R.drawable.close);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(drawable);
@@ -31,7 +31,7 @@ public class AddBookActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menuAgree:
-                startActivity(new Intent(AddBookActivity.this, HomeActivity.class));
+                startActivity(new Intent(AddTopBookActivity.this, BookBestSellActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

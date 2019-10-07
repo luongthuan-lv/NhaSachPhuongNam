@@ -1,19 +1,22 @@
-package vn.edu.nhasachphuongnam;
+package vn.edu.nhasachphuongnam.BillScreen;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class ListBillActivity extends AppCompatActivity {
+import vn.edu.nhasachphuongnam.R;
+
+public class Lists_BillActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_bill);
+        setContentView(R.layout.activity_lists__bill);
         Drawable drawable = getResources().getDrawable(R.drawable.close);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(drawable);
@@ -30,7 +33,7 @@ public class ListBillActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menuAgree:
-
+                startActivity(new Intent(Lists_BillActivity.this, SellBillActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

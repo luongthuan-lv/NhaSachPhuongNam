@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import vn.edu.nhasachphuongnam.RegistraionScreen.RegistraionActivity;
+import vn.edu.nhasachphuongnam.UserScreen.Recover_PassActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -22,5 +23,9 @@ public class SplashActivity extends AppCompatActivity {
 
     public void openResgistraion(View view) {
         startActivity(new Intent(this, RegistraionActivity.class));
+    }
+
+    public void openRecoverPass(View view) {
+        startActivity(new Intent(SplashActivity.this, Recover_PassActivity.class));
     }
 }

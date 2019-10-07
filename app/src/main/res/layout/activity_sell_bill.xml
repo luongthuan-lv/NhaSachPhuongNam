@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/splash_bg"
-    tools:context=".BillScreen.InsertBillActivity">
-
+    tools:context=".BillScreen.SellBillActivity">
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView2"
         android:layout_width="0dp"
@@ -68,19 +67,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
-                    android:text="@string/ngaynhap" />
+                    android:text="@string/ngayban" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
-                    android:text="@string/soluongnhap" />
+                    android:text="@string/soluongban" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
-                    android:text="@string/gianhaph65" />
+                    android:text="@string/giaban70" />
 
             </LinearLayout>
 
@@ -114,7 +113,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:clickable="true"
-        android:onClick="openAddBill"
+        android:onClick="openSellBill"
         app:layout_constraintBottom_toBottomOf="@+id/recyclerView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/receipt" />

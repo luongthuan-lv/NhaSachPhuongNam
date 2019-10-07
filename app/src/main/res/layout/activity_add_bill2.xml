@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddBill2Activity">
+    tools:context=".BillScreen.AddBill2Activity">
 
     <TextView
         android:id="@+id/textView13"
@@ -68,6 +68,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
+        android:textSize="20sp"
         android:onClick="openListBill"
         android:textColor="@color/login"
         android:background="@drawable/button_round"

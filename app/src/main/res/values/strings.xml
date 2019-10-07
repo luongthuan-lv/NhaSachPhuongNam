@@ -54,7 +54,7 @@
     <string name="theloaikinhdoanh">Thể loại: Kinh doanh</string>
     <string name="tensachdungbankhichuaduocgia">Tên sách: Đừng bán khi không được giá</string>
     <string name="ngaynhap">Ngày nhập: 10/3/2019</string>
-    <string name="soluongnhap">Số lượng: 20</string>
+    <string name="soluongnhap">Số lượng nhập: 20</string>
     <string name="giasach65">Giá sách: 65.000 VNĐ</string>
     <string name="theloaiedt">Thể loại</string>
     <string name="ngaynhapedt">Ngày nhập</string>
@@ -65,4 +65,20 @@
     <string name="vuilongnhapgia">Vui lòng nhập giá (lớn hơn 0)</string>
     <string name="gianhap">Giá nhập</string>
     <string name="soluongedt">Số lượng</string>
+    <string name="ngayban">Ngày bán: 10/4/2019</string>
+    <string name="gianhaph65">Giá nhập: 65.000 VNĐ</string>
+    <string name="soluongban">Số lượng bán: 20</string>
+    <string name="giaban70">Giá bán: 70.000 VNĐ</string>
+    <string name="ngaynhap_dialog">Ngày</string>
+    <string name="giadialog">Giá</string>
+    <string name="soluongedts">Số lượng nhập</string>
+    <string name="vuilongngayban">Ngày bán</string>
+    <string name="ngaybanedt">Ngày bán</string>
+    <string name="giaban">Giá bán</string>
+    <string name="soluongbanedts">Số lượng bán</string>
+    <string name="taikhoan">Tài khoản</string>
+    <string name="xacnhan">Xác nhận</string>
+    <string name="luu">Lưu</string>
+    <string name="laylaimatkhau">Lấy lại mật khẩu</string>
+    <string name="nd">Vui lòng cung cấp email đăng nhập để lấy lại mật khẩu</string>
 </resources>

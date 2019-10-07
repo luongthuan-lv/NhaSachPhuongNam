@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistraionScreen.RegistraionDKActivity">
-
+    tools:context=".UserScreen.Infor_UserActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
@@ -21,6 +20,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ipeNumberphone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/sdt" />
@@ -40,6 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ipeEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/email" />
@@ -59,6 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ipeName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hoten" />
@@ -78,6 +80,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ipePass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/matkhau" />
@@ -95,9 +98,10 @@
         android:layout_marginRight="8dp"
         android:background="@drawable/button_round"
         android:textColor="@color/login"
-        android:text="@string/dangkys"
+        android:text="@string/luu"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

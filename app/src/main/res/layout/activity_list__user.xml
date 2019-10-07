@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistraionScreen.RegistraionDKActivity">
-
+    tools:context=".UserScreen.List_UserActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
@@ -95,7 +94,7 @@
         android:layout_marginRight="8dp"
         android:background="@drawable/button_round"
         android:textColor="@color/login"
-        android:text="@string/dangkys"
+        android:text="@string/them"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/splash_bg"
-    tools:context=".BillScreen.InsertBillActivity">
+    tools:context=".InventoryScreen.InventoryActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView2"
@@ -114,8 +114,9 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:clickable="true"
-        android:onClick="openAddBill"
+        android:onClick="openAddInventory"
         app:layout_constraintBottom_toBottomOf="@+id/recyclerView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/receipt" />
+        android:src="@drawable/ic_book_black_24dp"
+         />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package vn.edu.nhasachphuongnam;
+package vn.edu.nhasachphuongnam.BillScreen;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import vn.edu.nhasachphuongnam.R;
 
 public class AddBillActivity extends AppCompatActivity {
 
@@ -31,7 +33,7 @@ public class AddBillActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.menunext:
-              startActivity(new Intent(AddBillActivity.this,AddBill2Activity.class));
+              startActivity(new Intent(AddBillActivity.this, AddBill2Activity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

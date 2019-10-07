@@ -1,4 +1,4 @@
-package vn.edu.nhasachphuongnam;
+package vn.edu.nhasachphuongnam.InventoryScreen;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,12 +9,16 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class AddBookActivity extends AppCompatActivity {
+import vn.edu.nhasachphuongnam.BillScreen.InsertBillActivity;
+import vn.edu.nhasachphuongnam.BillScreen.ListBillActivity;
+import vn.edu.nhasachphuongnam.R;
+
+public class List_InventoryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_book);
+        setContentView(R.layout.activity_list__inventory);
         Drawable drawable = getResources().getDrawable(R.drawable.close);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(drawable);
@@ -31,7 +35,7 @@ public class AddBookActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menuAgree:
-                startActivity(new Intent(AddBookActivity.this, HomeActivity.class));
+                startActivity(new Intent(List_InventoryActivity.this, InventoryActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

@@ -9,13 +9,57 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListBillActivity"></activity>
-        <activity android:name=".AddBill2Activity" />
+        <activity android:name=".UserScreen.Recover_PassActivity"
+            android:theme="@style/FullScreen"></activity>
         <activity
-            android:name=".AddBillActivity"
-            android:parentActivityName=".InsertBillActivity" />
-        <activity android:name=".InsertBillActivity" />
-        <activity android:name=".AddBookActivity" />
+            android:name=".UserScreen.Infor_UserActivity"
+            android:parentActivityName=".UserScreen.UserActivity" />
+        <activity
+            android:name=".UserScreen.List_UserActivity"
+            android:parentActivityName=".UserScreen.UserActivity" />
+        <activity
+            android:name=".UserScreen.Add_User2Activity"
+            android:parentActivityName=".UserScreen.UserActivity" />
+        <activity
+            android:name=".UserScreen.Add_UserActivity"
+            android:parentActivityName=".UserScreen.UserActivity" />
+        <activity android:name=".UserScreen.UserActivity" />
+        <activity
+            android:name=".InventoryScreen.List_InventoryActivity"
+            android:parentActivityName=".InventoryScreen.InventoryActivity" />
+        <activity
+            android:name=".InventoryScreen.Add_Inventory2Activity"
+            android:parentActivityName=".InventoryScreen.InventoryActivity" />
+        <activity
+            android:name=".InventoryScreen.Add_InventoryActivity"
+            android:parentActivityName=".InventoryScreen.InventoryActivity" />
+        <activity android:name=".InventoryScreen.InventoryActivity" />
+        <activity
+            android:name=".AddTopBookActivity"
+            android:parentActivityName=".BookBestSellActivity" />
+        <activity
+            android:name=".BillScreen.Lists_BillActivity"
+            android:parentActivityName=".BillScreen.SellBillActivity" />
+        <activity
+            android:name=".BillScreen.Adds_Bill2Activity"
+            android:parentActivityName=".BillScreen.SellBillActivity" />
+        <activity
+            android:name=".BillScreen.Adds_BillActivity"
+            android:parentActivityName=".BillScreen.SellBillActivity" />
+        <activity android:name=".BillScreen.SellBillActivity" />
+        <activity
+            android:name=".BillScreen.ListBillActivity"
+            android:parentActivityName=".BillScreen.InsertBillActivity" />
+        <activity
+            android:name=".BillScreen.AddBill2Activity"
+            android:parentActivityName=".BillScreen.InsertBillActivity" />
+        <activity
+            android:name=".BillScreen.AddBillActivity"
+            android:parentActivityName=".BillScreen.InsertBillActivity" />
+        <activity android:name=".BillScreen.InsertBillActivity" />
+        <activity
+            android:name=".AddBookActivity"
+            android:parentActivityName=".HomeActivity" />
         <activity
             android:name=".RegistraionScreen.RegistraionDKActivity"
             android:label="@string/dangky"

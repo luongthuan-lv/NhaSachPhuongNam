@@ -1,14 +1,13 @@
-package vn.edu.nhasachphuongnam;
+package vn.edu.nhasachphuongnam.BillScreen;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
+
+import vn.edu.nhasachphuongnam.R;
 
 public class AddBill2Activity extends AppCompatActivity {
 
@@ -24,6 +23,6 @@ public class AddBill2Activity extends AppCompatActivity {
 
 
     public void openListBill(View view) {
-        startActivity(new Intent(AddBill2Activity.this,ListBillActivity.class));
+        startActivity(new Intent(AddBill2Activity.this, ListBillActivity.class));
     }
 }
