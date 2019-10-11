@@ -38,6 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvNumberPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/nhapsdtinput"
@@ -75,6 +76,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/nhapemail"
@@ -113,6 +115,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/nhaphote"

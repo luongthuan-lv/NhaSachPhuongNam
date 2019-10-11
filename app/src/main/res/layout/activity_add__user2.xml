@@ -34,6 +34,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvPass"
+            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/nhapmatkhau" />
@@ -53,6 +55,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:inputType="textPassword"
+            android:id="@+id/tvReturnPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/xacnhanlaimatkhau" />
@@ -69,7 +73,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/button_round"
-        android:text="@string/xacnhan"
+        android:text="@string/them"
         android:textAllCaps="false"
         android:textColor="@color/login"
         android:textSize="20sp"

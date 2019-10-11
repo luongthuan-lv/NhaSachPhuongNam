@@ -26,8 +26,8 @@
     <string name="menuXoa">Xóa</string>
     <string name="tenbianhalanhdao">Nhà lãnh đạo 4.0</string>
     <string name="tacgia">Tác giả:<b> Harvard Business Review</b></string>
-    <string name="theloaisach">Thể loại:<b> Kinh doanh</b></string>
-    <string name="giasach65k">Giá bán:<b>65.000 VNĐ</b></string>
+    <string name="theloaisach">Thể loại: <b>Kinh doanh</b></string>
+    <string name="giasach65k">Giá bán: <b>65.000 VNĐ</b></string>
     <string name="muangay">Mua ngay</string>
     <string name="dungbankhichuaduocgia">Đừng bán khi chưa được giá</string>
     <string name="nhapsdt">Vui lòng nhập số điện thoại (có 10 chữ số)</string>
@@ -87,4 +87,9 @@
     <string name="tienthu">Tiền thu: 1.000.000 VNĐ</string>
     <string name="ngay">Ngày: 20/9/2019</string>
     <string name="thongtin">Cảm ơn bạn đã tin tưởng vào sử dụng app quản lý sách của chúng tôi</string>
+    <string name="giasachs">Giá sách: </string>
+    <string name="saunamk">65.000 VNĐ</string>
+    <string name="kinhdoanh">Kinh doanh</string>
+    <string name="theloaisachs">Thể loại:</string>
+
 </resources>

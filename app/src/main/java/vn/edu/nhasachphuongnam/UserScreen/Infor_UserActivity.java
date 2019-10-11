@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import vn.edu.nhasachphuongnam.R;
@@ -60,7 +59,7 @@ public class Infor_UserActivity extends AppCompatActivity {
         ipeName = findViewById(R.id.ipeName);
         ipeNumberphone = findViewById(R.id.ipeNumberphone);
         ipePass = findViewById(R.id.ipePass);
-        btnUpdate = findViewById(R.id.btnUpdate);
+        btnUpdate = findViewById(R.id.btnXacNhan);
 
     }
 
@@ -88,7 +87,10 @@ public class Infor_UserActivity extends AppCompatActivity {
                     user.Phone = number;
 
                     long up = userDao.updateUser(user);
+
                     Log.e("uuuuu1111111111", email + "");
+                    Intent intent=new Intent(Infor_UserActivity.this,UserActivity.class);
+                    startActivityForResult(intent,0);
 
                     if (up > 0) {
                         Toast.makeText(Infor_UserActivity.this, "Cập nhật thành công", Toast.LENGTH_SHORT).show();

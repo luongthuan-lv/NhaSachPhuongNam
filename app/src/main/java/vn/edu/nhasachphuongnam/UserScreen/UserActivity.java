@@ -39,14 +39,7 @@ private UserDao userDao;
         userDao.createDataBase();
         innit();
         userList=new ArrayList<>();
-        for (int i=0;i<10;i++){
-            User user=new User();
-            user.setHoTen("Luong Thuan");
-            user.setPassWord("123456");
-            user.setPhone("0963131729");
-            user.setUserName("luongthuan2k "+i);
-            userList.add(user);
-        }
+        userList=userDao.getAllUser();
 
         rvUser_list.setHasFixedSize(true);
         userAdapter=new UserAdapter(UserActivity.this,userList);
